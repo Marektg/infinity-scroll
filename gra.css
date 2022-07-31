@@ -1,0 +1,9 @@
+.pole {
+    display: block;
+    width: 12.5%;
+}
+.cont {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(30px);
+}
