@@ -1,9 +1,12 @@
 .pole {
     display: block;
-    width: 12.5%;
+    /* width: 12.5%; */
+    margin: 0;
 }
 .cont {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(30px);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    column-gap: 0;
 }
